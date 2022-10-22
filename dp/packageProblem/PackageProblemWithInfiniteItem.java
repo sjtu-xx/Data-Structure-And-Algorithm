@@ -1,7 +1,5 @@
 package dp.packageProblem;
 
-import java.util.Arrays;
-
 public class PackageProblemWithInfiniteItem {
     public static void main(String[] args) {
         System.out.println(getMaxValue());
