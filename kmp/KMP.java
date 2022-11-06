@@ -20,11 +20,11 @@ public class KMP {
                 i++;
                 j++;
             } else {
-                if (j == 0 || pmt[j = 1] == 0) {
+                if (j == 0 || pmt[j - 1] == 0) {
                     i++;
                     j = 0;
                 } else {
-                    j -= pmt[j - 1];
+                    j = pmt[j - 1];
                 }
             }
         }
